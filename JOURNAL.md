@@ -5,7 +5,7 @@ description: "Custom CoreXY printer with changeable toolheads for 3D printing an
 created_at: "2025-06-15"
 ---
 
-**Total time spent: 10.5hrs**
+**Total time spent: 17hrs**
 
 # June 15th - Planning the concept (0.5hrs)
 
@@ -39,3 +39,13 @@ Below, a 3D-printed holder is screwed to the aluminum extrusion where the linear
 The aluminum extrusion frame for the print bed is held together with simple 3D printed plates.
 
 ![BedFrame](images/bedMountConnectors.jpeg)
+
+# June 18th - XY-Axis (6.5hrs)
+
+After a few school exams, I was finally able to move on to the remaining axes. The Y-axis already has two linear rails, and I've finished the 3D-printed mounts. These include space for screwing the two idler pulleys at two different heights for the two belt loops. I also learned today how the corexy system works exactly; YouTube was my best source of help.
+
+![xy-axis-1](images/xy-axis-1.jpeg)
+
+The entire CAD project looks like this so far.
+
+![so-far1](images/so-far1.jpeg)
