@@ -5,7 +5,7 @@ description: "Custom CoreXY printer with changeable toolheads for 3D printing an
 created_at: "2025-06-15"
 ---
 
-**Total time spent: 28.5hrs**
+**Total time spent: 37.5hrs**
 
 # June 15th - Planning the concept (0.5hrs)
 
@@ -67,3 +67,47 @@ And now the XY axis looks like this. The Y axis needs to be adjusted because I d
 I've decided against the simple Creality CR10S extruder or the similar Ender 3 extruder. For direct extrusion, I'll use the dual gear BMG extruder or a cheap clone to minimize overall costs. I'll attach any NEMA 17 motor that's no longer than 48 centimeters to it, so I can enclose the printer later. With a small adapter, I can use the Bambu X1C hotend. For the electronics, I'd like to use a small control board on the print head, but I don't yet know how complicated that would be.
 
 ![printhead-components](images/printhead-components.jpeg)
+
+# July 5th - Printhead Mount and Printbed Redesign (9hrs)
+
+After another exam period, I finally got back to work on this project. First, I modeled an adapter for the Bambu Lab hotend to mount it on the V6 universal mount.
+
+![hotend-mount-adapter](images/hotend-mount-adapter.jpeg)
+
+Next, I modeled a simple printhead mount to attach the existing components. This is screwed to the top of the linear guide carriage and runs around the entire x-axis to ensure stability. A counterplate is then screwed on from the other side, completing the basic system for mounting the print head.
+
+![printheat-mount-1](images/printheat-mount-1.jpeg)
+
+![printheat-mount-2](images/printheat-mount-2.jpeg)
+
+Next, I finally finished the print bed. It's attached to four corners with M5 ball joints, allowing the print bed to be adjusted at different heights. This allows for auto-leveling of the printer. Simple adapters are attached to the ball joints, which can be adjusted depending on the printbed size. It's important that the printbed is a combination with an aluminum plate; the plate can be attached to the adapter with clamps. The material should be at least ASA for heat resistance.
+
+![printbed-redesign](images/printbed-redesign.jpeg)
+
+I also added another motor with a linear rail and carriage to implement the aforementioned bed leveling. The base frame made of aluminum extrusions was also slightly adjusted in width so that the printhead can reach all corners of the print bed and also to ensure the mobility of the Z-axis. I also decided against my wish to have a small circuit board on the print head to minimize cables, as I don't have enough time for it, and the main board to control the printer, including the motors, sensors, fans, and hotend, and to communicate with Klipper, is currently only in the planning stages.
+
+![so-far3](images/so-far3.jpeg)
+
+# July 6th - Printhead and finally feet! (4.5hrs)
+
+Finally, the printer has feet to stand on. On my to-do list for the final design changes is the enclosure for printing materials like ABS and ASA, and, more importantly, for using a slightly more powerful laser. The mount and laser will be modeled and selected based on the controller PCB design, as the 3D printer concept needs to be finalized first.
+
+![feet](images/feet.jpeg)
+
+The final changes to the printheat are complete. Now there's a BL touch sensor for auto-leveling and, of course, the parts cooling fan with a somewhat awkward mount so that the aluminum extrusions don't get in the way and the print head can reach everywhere. Two stoppers are attached to the ends of the linear rail to hold the linear rail carriage at the ends.
+
+![printheat-finished](images/printheat-finished.jpeg)
+
+Here are some CAD images for the new x-axis system and the bed in combination with the finished printhead.
+
+![printbed-redesign-full](images/printbed-redesign-full.jpeg)
+
+![printbed-printheat](images/printbed-printheat.jpeg)
+
+Here it is again in combination with the aluminum frame and the feet, which of course have the name of the project engraved on them.
+
+![frame-modifications](images/frame-modifications.jpeg)
+
+And finally, the basic design of the 3D printer is complete. Now it's time to design the motherboard for the printer. Next comes the laser selection and the modeling of the mount and enclosure. I actually wanted to finish this project a long time ago, but I don't have as much time as I thought. I'd like to realize other projects, but time is, as always, the issue.
+
+![so-far4](images/so-far4.jpeg)
