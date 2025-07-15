@@ -1,11 +1,11 @@
 ---
 title: "Kiloan P1M"
 author: "Kian Lorenz"
-description: "Custom CoreXY printer with changeable toolheads for 3D printing and laser engraving or cutting."
+description: "Custom CoreXY printer for 3D Printing"
 created_at: "2025-06-15"
 ---
 
-**Total time spent: 37.5hrs**
+**Total time spent: 39hrs**
 
 # June 15th - Planning the concept (0.5hrs)
 
@@ -111,3 +111,13 @@ Here it is again in combination with the aluminum frame and the feet, which of c
 And finally, the basic design of the 3D printer is complete. Now it's time to design the motherboard for the printer. Next comes the laser selection and the modeling of the mount and enclosure. I actually wanted to finish this project a long time ago, but I don't have as much time as I thought. I'd like to realize other projects, but time is, as always, the issue.
 
 ![so-far4](images/so-far4.jpeg)
+
+# July 15th - Error correction (1.5hrs)
+
+I took another look at the design and realized that there was no way to attach the belt to the printhead. That's now there, too, albeit a bit impractical.
+
+![belt-1](images/belt-1.jpeg)
+
+![belt-2](images/belt-2.jpeg)
+
+I'll also be using two SKR Mini E3 V3 controller boards to operate the printer with Klipper. I've started making my own 3D printer controller, but that will be implemented in a future project. I'm aware that I'm currently way over budget, but I already have some expensive parts that can be used for the printer. For cost reasons, the laser won't be implemented for now, although it's certainly possible. I will ship the project now because highway is slowly coming to an end, if I have time again I will enclose the printer.
