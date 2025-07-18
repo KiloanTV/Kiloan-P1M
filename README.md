@@ -9,12 +9,12 @@
   </a>
   </p>
   <h1></h1>
-  <p>
+  <p align="center">
     A custom 3D Printer, that is expandable, reliable and can be easily modified!
   </p>
 </div>
 
-<sub>This work is licensed under the
+<sub align="center">This work is licensed under the
 [MIT License](https://mit-license.org).
 </sub>
 
