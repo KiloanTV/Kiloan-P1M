@@ -1,5 +1,5 @@
-<div align="center">
-  <h1>Kiloan P1M V1</h1>
+<div>
+  <h1 align="center">Kiloan P1M V1</h1>
 
   ![Kiloan-P1M](images/branding-image.png)
 
