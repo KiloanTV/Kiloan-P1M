@@ -3,7 +3,7 @@
 
   ![Kiloan-P1M](images/branding-image.png)
 
-  <p display="inline">
+  <p align="center">
   <a href="https://hackclub.com/highway">
     <img alt="Funded by Hack Club" src="https://img.shields.io/badge/Hack_Club-Funded-ec3750?style=for-the-badge&logo=hackclub&logoColor=ec3750"></img>
   </a>
