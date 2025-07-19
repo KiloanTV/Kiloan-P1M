@@ -32,7 +32,7 @@ I bought a 3D printer exactly a year ago, and since then, the whole thing has be
 
 ![zy](images/xy.png)
 
-![controll-boards](images/)
+![full-printer](images/branding-image.png)
 
 # Bill of Materials
 
