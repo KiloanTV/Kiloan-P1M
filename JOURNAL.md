@@ -5,7 +5,7 @@ description: "Custom CoreXY printer for 3D Printing"
 created_at: "2025-06-15"
 ---
 
-**Total time spent: 39hrs**
+**Total time spent: 42hrs**
 
 # June 15th - Planning the concept (0.5hrs)
 
@@ -121,3 +121,9 @@ I took another look at the design and realized that there was no way to attach t
 ![belt-2](images/belt-2.jpeg)
 
 I'll also be using two SKR Mini E3 V3 controller boards to operate the printer with Klipper. I've started making my own 3D printer controller, but that will be implemented in a future project. I'm aware that I'm currently way over budget, but I already have some expensive parts that can be used for the printer. For cost reasons, the laser won't be implemented for now, although it's certainly possible. I will ship the project now because highway is slowly coming to an end, if I have time again I will enclose the printer.
+
+# July 18th - Some last things (3hrs)
+
+I've made mounts for the two controller boards. Which Raspberry Pi I use depends on what arrives in time. Today I also prepared the repository for submitting the project and researched how Klipper works and how to use two controller boards.
+
+![controll-boards](images/controll-boards.jpeg)
