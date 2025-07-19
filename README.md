@@ -21,11 +21,20 @@
 ## Table of Contents
 
 - [About](#about)
+- [Pictures](#pictures)
 - [Bill of Materials](#bill-of-materials)
 
 # About
 
 I bought a 3D printer exactly a year ago, and since then, the whole thing has been on my mind. From modeling to the finished part, whether it's spare parts or small gifts. I received an email from GitHub Education informing me about Highway by Hackclub, and after stumbling across it again, I started designing a Corexy 3D printer. Admittedly, it's a bit overkill, but that makes the whole thing even better and allows for many updates. After Highway, I plan to perfect this printer and turn it into a 3D printing/laser cutting combo.
+
+# Pictures
+
+![zy](images/zy.jpeg)
+
+![bed-system](images/bed-system.jpeg)
+
+![controll-boards](images/controll-boards.jpeg)
 
 # Bill of Materials
 
