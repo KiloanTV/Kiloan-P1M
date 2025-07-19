@@ -30,11 +30,9 @@ I bought a 3D printer exactly a year ago, and since then, the whole thing has be
 
 # Pictures
 
-![zy](images/zy.jpeg)
+![zy](images/xy.png)
 
-![bed-system](images/bed-system.jpeg)
-
-![controll-boards](images/controll-boards.jpeg)
+![controll-boards](images/)
 
 # Bill of Materials
 
